@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Vaccination</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a class="navbar-brand fs-1 fw-bold" href="#">Vaccination</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto me-lg-4 py-3">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Database</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Education</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Regulation</a>
+              </li>
+            </ul>
+            <a href="#" class="btn-custom ms-lg-4">HoaxBuster</a>
+          </div>
+        </div>
+      </nav>
+    <header>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-5 mt-4 ms-md-5 text-center-xs">
+                <h1 class="fw-bold">Fight Virus With Vaccines</h1>
+                <p>Let´s stop this pandemic bye killing the virus with vaccine, 
+                don´t let yourself and your family get infected</p><br>
+                <div style="display: flex">
+                    <i class="bi bi-shield-fill-check" style="color: rgb(255, 208, 18);"></i>
+                    <div style="margin-left: 10px">
+                        <a href=""><h5>Best protection</h5></a>
+                    </div>
+                    <i class="bi bi-star-fill" style="color: rgb(255, 208, 18);"></i>
+                    <div style="margin-left: 10px">
+                        <a href=""><h5>Selected Vaccines</h5></a>
+                    </div>
+                </div>
+              </div>
+                  <div class="col ms-5">
+                      <img src="images/enfermera.jpg" alt="enfermera con jeringa" class="img-fluid">
+                  </div>
+            </div>
+        </div>
+    </header>
+    
+    <section class="slider" id="mi-experiencia">
+        <div class="slider_container ">
+            <img src="images/back-arrow.png" class="slider_arrow" id="before">
+            <section class="slider_body" data-id="1">
+                <figure class="slider_picture">
+                    <img src="images/AstraZeneca.png" class="slider_img">
+                </figure>                        
+            </section>
+
+            <section class="slider_body" data-id="2">
+                <figure class="slider_picture">
+                    <img src="images/johnson.jpg" class="slider_img">
+                </figure>                        
+            </section>
+
+            <section class="slider_body" data-id="3">
+                <figure class="slider_picture">
+                    <img src="images/moderna.jpg" class="slider_img">
+                </figure>                        
+            </section>
+
+            <section class="slider_body" data-id="4">
+                <figure class="slider_picture">
+                    <img src="images/sinovac.jpg" class="slider_img">
+                </figure>                        
+            </section>
+
+            <section class="slider_body slider_body--show" data-id="5">
+                <figure class="slider_picture">
+                    <img src="images/pfizer.jpg" class="slider_img">
+                </figure>                        
+            </section>
+            <img src="images/right-arrow.png" class="slider_arrow" id="next" alt="">
+        </div>
+    </section>
+    <section id="about" class="about">
+        <div class="row">
+            <div class="col-md-5 mt-4 ms-md-5 text-center-xs">
+              <h1 class="fw-bold">Why should I vaccine?</h1>
+              <p>In order to avoid any doubts about getting the COVID-19
+                 vaccine, identify the following 4 benefits of COVID-19
+                 vaccination: 
+              </p><br>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services section-bg">
+        <div class="container">
+           <div class="row">
+              <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+                 <div class="icon-box">
+                    <div class="icon mb-3"><i class="bi bi-x-diamond-fill" style="color: rgb(56, 88, 214)"></i></div>
+                    <h4>Minimize the spread of viruses</h4>
+                    <p id="cardtext">Vaccine has been proven effective to prevent someone from 
+                       getting infected with Coronavirus 
+                    </p>
+                 </div>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 mt-4 mt-md-0 d-flex align-items-stretch">
+                 <div class="icon-box">
+                    <div class="icon mb-3"><i class="bi bi-shield-fill-check" style="color: rgb(56, 88, 214)"></i></div>
+                    <h4>Forming antibodies</h4>
+                    <p id="cardtext">COVID-19 vaccine proven to help shape antibody response
+                       for immune system
+                    </p>
+                 </div>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 d-flex align-items-stretch">
+                 <div class="icon-box">
+                    <div class="icon mb-3"><i class="bi bi-people-fill" style="color: rgb(56, 88, 214)"></i></div>
+                    <h4>Protecting people nearby</h4>
+                    <p id="cardtext">The benefits of COVID-19 vaccination are the vaccine that we 
+                       get can also help protet people around us</p>
+                 </div>
+              </div>
+  
+              <div class="col-lg-3 col-md-6 mt-4 mt-lg-0 d-flex align-items-stretch">
+                 <div class="icon-box">
+                    <div class="icon mb-3"><i class="bi bi-heart-pulse-fill" style="color: rgb(56, 88, 214)"></i></div>
+                    <h4>Creating group immunity</h4>
+                    <p id="cardtext">COVID-19 vaccination is also beneficial for creating group
+                       immunity or herd immunity</p>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </section>
+
+    <section id="preparation" class="preparation">
+        <div class="row">
+            <div class="col-md-5 mt-4 ms-md-5 text-center-xs">
+            </div>
+            <div class="col-md-5 mt-4 ms-md-5 text-center-xs">
+              <h1 class="fw-bold">Preparations Before Vaccine</h1>
+              <p>The success of vaccines is strongly influenced bye the strength
+                of the body's immune system. Therefore, there are several things
+                that can be tried to make the COVID-19 vaccine work:
+              </p><br> 
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="containerdos">
+            <div class="row">
+              <div class="col ms-5">
+                <img src="images/pacienteunodos.jpg" alt="enfermera con jeringa" class="img-fluid">
+              </div>  
+              <div class="col-md-5 mt-4 ms-md-5 text-center-xs">
+                  <div class="row">
+                    <div style="display: flex">
+                        <i class="bi bi-shield-fill-x" style="color: rgb(56, 88, 214);"></i>
+                        <div class="indications" style="margin-bottom: 100px">
+                            <h3>Avoid alcoholic beverages</h3>
+                        </div>
+                    </div>
+                    <div style="display: flex">
+                        <i class="bi bi-file-x-fill" style="color: rgb(56, 88, 214);"></i>
+                        <div class="indications" style="margin-bottom: 100px">
+                            <h3>Avoid stress</h3>
+                        </div>
+                    </div>
+                    <div style="display: flex">
+                        <i class="bi bi-file-bar-graph-fill" style="color: rgb(56, 88, 214);"></i>
+                        <div class="indications" style="margin-bottom: 100px">
+                            <h3>Eat healthy food</h3>
+                        </div>
+                    </div>
+                    <div style="display: flex">
+                        <i class="bi bi-check-square-fill" style="color: rgb(56, 88, 214);"></i>
+                        <div class="indications" style="margin-bottom: 100px">
+                            <h3>Get enough sleep</h3>
+                        </div>
+                    </div>
+                    <div style="display: flex">
+                        <i class="bi bi-heart-fill" style="color: rgb(56, 88, 214);"></i>
+                        <div class="indications" style="margin-bottom: 100px">
+                            <h3>Exercise or physical activity</h3>
+                        </div>
+                    </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <div class="row">
+            <div class="col-md-5 mt-4 ms-md-5 text-center-xs">
+              <h1 class="fw-bold">Emergency Contact</h1>
+              <p>Contact one of the contacts below if you or your family feel
+                 unwell and have similar symptoms such as Covid-19, make sure 
+                 you also take care of yourself before reporting to us:  
+              </p><br>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="containertres">
+            <div class="row">
+              <div class="col-md-5 mt-4 ms-md-5 text-center-xs">
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <i class="bi bi-telephone-fill" style="color: rgb(56, 88, 214);"></i>
+                          <h5 class="card-title">Call</h5>
+                          <p class="card-text">021.123.145.14</p>
+                          <a href="#" class="btn btn-primary" id="botonclaro">Call Now</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <i class="bi bi-chat-dots-fill" style="color: rgb(56, 88, 214);"></i>
+                          <h5 class="card-title">Chat</h5>
+                          <p class="card-text">021.123.145.14</p>
+                          <a href="#" class="btn btn-primary">Chat Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <i class="bi bi-camera-video-fill" style="color: rgb(56, 88, 214);"></i>  
+                          <h5 class="card-title">Video Call</h5>
+                          <p class="card-text">021.123.145.14</p>
+                          <a href="#" class="btn btn-primary" id="botonclaro">Video Call Now</a>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                          <i class="bi bi-heart-fill" style="color: rgb(56, 88, 214);"></i>    
+                          <h5 class="card-title">Message</h5>
+                          <p class="card-text">021.123.145.14</p>
+                          <a href="#" class="btn btn-primary" id="botonclaro">Message Now</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col ms-5">
+                <img src="images/doctorcontacto.jpg" alt="enfermera con jeringa" class="img-fluid">
+              </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+           <div class="row">
+              <div class="col-md-3">
+                 <h4 class="mb-3">Vaccination</h4>
+                 <p>
+                    Our goal is to help the world free from the ongoing pandemic
+                 </p>
+              </div>
+              <div class="col-md-3">
+                 <h4 class="mb-3">About</h4>
+                 <ul class="list-unstyled">
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">News & Blog</a></li>
+                 </ul>
+              </div>
+              <div class="col-md-3">
+                 <h4 class="mb-3">Company</h4>
+                 <ul class="list-unstyled">
+                    <li><a href="">How We Work?</a></li>
+                    <li><a href="">Capital</a></li>
+                    <li><a href="">Security</a></li>
+                 </ul>
+              </div>
+              <div class="col-md-3">
+                <h4 class="mb-3">Support</h4>
+                <ul class="list-unstyled">
+                   <li><a href="">FAQs</a></li>
+                   <li><a href="">Support Center</a></li>
+                   <li><a href="">Contact us</a></li>
+                </ul>
+             </div>
+           </div>
+           <hr>
+           <div class="row">
+              <div class="col-12 text-center my-3">
+                 Copyrights © 2022 <a href="#">Vaccination</a> - Todos los derechos reservados
+              </div>
+           </div>
+        </div>
+     </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"  -->
+    <!-- integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"> -->
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js " integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=" anonymous "></script>
+    <script src="js/script.js"></script>
+    <script src="js/slider.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
